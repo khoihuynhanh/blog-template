@@ -96,5 +96,5 @@ npm i react-redux @reduxjs/toolkit
 
 # 12. Terminal
 ```
-npm lint:fix
+npm run lint:fix
 ```

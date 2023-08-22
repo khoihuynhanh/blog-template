@@ -22,14 +22,29 @@ npm i -D prettier eslint-plugin-prettier eslint-config-prettier
   },
 ```
 
-# 4. Create `.editorconfig` in root
+## 4. Create `.prettierrc` in root
+```
+{
+    "arrowParens": "always",
+    "semi": false,
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "endOfLine": "auto",
+    "useTabs": false,
+    "singleQuote": true,
+    "printWidth": 80,
+    "jsxSingleQuote": true
+}
+```
+
+# 5. Create `.editorconfig` in root
 ```
 [*]
 indent_size = 2
 indent_style = space
 ```
 
-# 5. Create file `.eslintrc` in root
+# 6. Create file `.eslintrc` in root
 ```
 {
   "extends": ["react-app", "prettier"],
@@ -53,17 +68,17 @@ indent_style = space
 }
 ```
 
-# 6. Install `tailwindcss`
+# 7. Install `tailwindcss`
 ```
 npm i -D tailwindcss postcss autoprefixer
 ```
 
-# 7. Create config tailwind
+# 8. Create config tailwind
 ```
 npx tailwindcss init -p
 ```
 
-# 8. Open file `tailwind.config.js` in root
+# 9. Open file `tailwind.config.js` in root
 ```
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -77,24 +92,24 @@ module.exports = {
 }
 ```
 
-# 9. Open file `src/index.css`
+# 10. Open file `src/index.css`
 ```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
 
-# 10. plugin for sorting classes for tailwindcss
+# 11. plugin for sorting classes for tailwindcss
 ```
 npm i -D prettier-plugin-tailwindcss
 ```
 
-# 11. Install redux toolkit
+# 12. Install redux toolkit
 ```
 npm i react-redux @reduxjs/toolkit
 ```
 
-# 12. Terminal
+# 13. Terminal
 ```
 npm run lint:fix
 ```

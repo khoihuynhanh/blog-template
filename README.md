@@ -5,7 +5,7 @@ npx create-react-app .
 
 # 2. Install `Prettier & ESlint`
 ```
-npm i -D prettier eslint-plugin-prettier eslint-config-prettier
+npm i -D prettier eslint-plugin-prettier eslint-config-prettier -D
 ```
 
 # 3. Add script in `package.json `

@@ -1,11 +1,13 @@
 # 1. Create Project
 ```
 npx create-react-app .
+yarn create react-app .
 ```
 
 # 2. Install `Prettier & ESlint`
 ```
-npm i -D prettier eslint-plugin-prettier eslint-config-prettier -D
+npm i prettier eslint-plugin-prettier eslint-config-prettier -D
+yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
 ```
 
 # 3. Add script in `package.json `
@@ -71,6 +73,7 @@ indent_style = space
 # 7. Install `tailwindcss`
 ```
 npm i -D tailwindcss postcss autoprefixer
+yarn add tailwindcss postcss autoprefixer -D
 ```
 
 # 8. Create config tailwind
@@ -102,6 +105,7 @@ module.exports = {
 # 11. plugin for sorting classes for tailwindcss
 ```
 npm i -D prettier-plugin-tailwindcss
+yarn add prettier-plugin-tailwindcss -D
 ```
 
 # 12. Install redux toolkit
@@ -112,4 +116,5 @@ npm i react-redux @reduxjs/toolkit
 # 13. Terminal
 ```
 npm run lint:fix
+yarn lint:fix
 ```

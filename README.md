@@ -32,7 +32,7 @@ npm i -D prettier eslint-plugin-prettier eslint-config-prettier
     "endOfLine": "auto",
     "useTabs": false,
     "singleQuote": true,
-    "printWidth": 80,
+    "printWidth": 120,
     "jsxSingleQuote": true
 }
 ```
